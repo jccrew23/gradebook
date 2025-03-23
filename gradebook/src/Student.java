@@ -30,7 +30,7 @@ public class Student {
         for (Assignment assignment : _assignments) {
             totalPercentage += assignment.getPercentage();
         }
-        return totalPercentage / _assignments.size();
+        return Math.round(totalPercentage / _assignments.size());
     }
 
     public String getLetterGrade() {

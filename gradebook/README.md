@@ -1,18 +1,21 @@
-## Getting Started
+# Overview
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The GradeBook program is a simple program designed to store students and assignments and do calculations to find Grade Percentages and Letter Grades and display these 
+calculations for the user. Logically, this program was written to display comprehension of and further understand the Java language. 
 
-## Folder Structure
+[Software Demo Video](http://youtube.link.goes.here)
 
-The workspace contains two folders by default, where:
+# Development Environment
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+This program was written using the VS Code editor with JDK downloaded. In addition, I used The Java Extension Pack through VS Code. The libraries imported into my code include scanner, list and arrayList utilities. 
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# Useful Websites
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- [Getting Started with Java in VS Code](https://code.visualstudio.com/docs/java/java-tutorial)
+- [Visual Studio Code for Java: The Complete Guide (Tips, Setup, and Extensions)](https://loiane.com/2024/03/visual-studio-code-for-java-the-complete-guide/)
 
-## Dependency Management
+# Future Work
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- I look forward to being able add the function to save to a JSON file OR connect to a database. 
+- I would also like to add the ability to open this in a frame on the console rather than being tied to the terminal. 
+- I would like to add the ability to view assignments and scores for each students. 
