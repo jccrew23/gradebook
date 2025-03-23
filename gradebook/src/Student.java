@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Student {
+public class Student implements Gradable {
     private String _firstName;
     private String _lastName;
     private List<Assignment> _assignments;
@@ -16,6 +16,16 @@ public class Student {
         _assignments = new ArrayList<>();
 
         addAssignments();
+    }
+   
+    
+    @Override
+    public float assignmentGrade() {
+        float totalGrade = 0;
+        for (Assignment assignment : _assignments) {
+            totalGrade += assignment.getPercentage();
+        }
+        return totalGrade / _assignments.size();
     }
 
     public String getName() {

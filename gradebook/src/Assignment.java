@@ -1,4 +1,4 @@
-public class Assignment {
+public class Assignment implements Gradable {
     private String _assignmentName;
     private int _pointsAvailable;
     private int _pointsEarned;
@@ -10,7 +10,15 @@ public class Assignment {
 
     }
 
-    
+    @Override
+    public float assignmentGrade() {
+        return (float) _pointsEarned / _pointsAvailable * 100; // Calculate the percentage of points earned
+    }
+
+    public int getPointsEarned() {
+        return _pointsEarned;
+    }
+
 
     public float getPercentage() {
         if (_pointsAvailable == 0) {
