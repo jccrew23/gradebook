@@ -3,7 +3,7 @@
 The GradeBook program is a simple program designed to store students and assignments and do calculations to find Grade Percentages and Letter Grades and display these 
 calculations for the user. Logically, this program was written to display comprehension of and further understand the Java language. 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/cDI19YWBNcU)
 
 # Development Environment
 
